@@ -2,9 +2,9 @@ import React from 'react';
 import Navbar from './components/Navbar';
 import Features from './components/Features';
 import Footer from './components/Footer';
-import { BrowserRouter as Router, Route, RoutesProps, Routes, } from 'react-router-dom'
+import { BrowserRouter as Router, Route, Routes, } from 'react-router-dom'
 import './App.css';
-import ImageSlider from './components/ImageSlider';
+// import ImageSlider from './components/ImageSlider';
 
 function App() {
     return (
