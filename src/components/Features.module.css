@@ -1,0 +1,246 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+    /* box-sizing: border-box; */
+}
+
+.features{
+    max-width: 100%;
+    box-sizing: border-box;
+    /* padding: 30px; */
+}
+.match{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+     padding: 150px 30px 30px 40px;
+     background-color: #0075FF26;
+    /* margin-bottom: 15px;
+    /* margin-top: 15px; */
+    /* padding-bottom: 30px; */
+}
+/* .role{
+    
+} */
+.perfect h4{
+    width: 596px;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 66.16px;
+    height: 152px;
+    width: 565px;
+    padding: 0 100px 125px 0;
+    text-transform: capitalize;
+    
+    
+}
+.perfect p{
+    width: 520px;
+    font-size: 20px;
+    line-height: 31.25px;
+    font-weight: 400;
+    height: 62px;
+    left: 80px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    /* font-family: sans-serif; */
+    
+}
+.features .feat .match .perect{
+    padding-top: 5550px;
+}
+.match .perfect .start{
+    font-weight: 700;
+    font-size: 25px;
+    padding-bottom: 0;
+    padding-top: 55px;
+    
+}
+.btn1{
+    padding-top: 0;
+}
+.play{
+   padding-left: 20px;
+}
+.app{
+    padding-left: 20px;
+}
+.iphone{
+    /* padding-left: 2px; */
+    display: flex;
+    flex-direction: row;
+}
+.iphone1{
+    width: 265.03px;
+    height: 731.69px;
+    top: 2.03px;
+    left: 25.2px;
+}
+.iphone2{
+    width: 282.27px;
+    height: 722.34px;
+    top: 2.03;
+    left: 2.03;
+    padding-top: 140px;
+}
+.jobs{
+    background-color: #E5E5E5;
+    max-width: 100%;
+    box-sizing: border-box;
+    padding: 150px 30px 30px 40px;
+}
+.immediate{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+     padding: 120px 30px 30px 40px;
+     
+}
+.immediate .company h4{
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 65.28px;
+    height: 65px;
+    width: 503px;
+    padding-bottom: 40px;
+    padding-top: 0;
+    text-transform: capitalize;
+}
+.immediate .company p{
+    width: 580px;
+    height: 201px;
+    top: 80px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 32px;
+    color: #130F26;
+}
+
+.fill{
+    
+    display: flex;
+    flex-direction: row;
+    padding-left: 130px;
+    width: 5px;
+    
+}
+.councel{
+        display: flex;
+        flex-direction: row;
+        grid-gap: 20px;
+        padding: 90px 30px 90px 40px;
+
+}
+.councellor{
+    width: 382px;
+    height: 102px;
+    border-radius: 5px;
+    padding: 35px;
+    padding-top: 81px;
+    border-bottom: 2px;
+    border-top: 2px;
+    
+}
+.forth{
+    background-color: #FCAE4940;
+}
+.interview{
+    background: #0075FF40;
+}
+.prep{
+    background: #FCB04B40;
+}
+.iphone4{
+    width: 282.27px;
+    height: 722.34px;
+    top: 2.03;
+    left: 2.03;
+    padding-top: 65px;
+}
+
+.experience{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+     padding: 100px 30px 30px 40px;
+     background: #FF9000;
+}
+.track{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+     /* padding: 20px 20px 20px 20px; */
+     background-color: #E5E5E5;
+     margin: auto;
+
+}
+.convince{
+    padding: 100px 30px 30px 40px;
+}
+.perfect{
+    width: 700px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65.28px;
+}
+.record{
+    width: 282px;
+    height: 102px;
+    border-radius: 5px;
+    padding: 35px;
+    padding-top: 81px;
+    border-bottom: 2px;
+    border-top: 2px;
+    background-color: white;
+}
+.address{
+    display: flex;
+    flex-direction: row;
+    grid-gap: 20px;
+    padding: 100px 30px 30px 40px;
+}
+.today{
+    padding-left: 40px;
+}
+.address .today p{
+    width: 242px;
+    height: 90px;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 65.28px; 
+}
+.address .today img{
+    width: 520px;
+    height: 430px;
+}
+.talk{
+    padding-left: 130px;
+    display: flex;
+    flex-direction: column;
+    line-height: 110px;
+    padding-top: 88px;
+    
+}
+.talk .details{
+    border: solid transparent;
+    height: 80px;
+    width: 520px; 
+    border-radius: 5px;
+    
+}
+.talk .help{
+    border: solid transparent;
+    width: 520px;
+    height: 280px;
+    border-radius: 5px;
+    
+}
+.talk .send{
+    background: #4E60D3;
+    height: 70px;
+    width: 520px;
+    border-radius: 5px;
+    
+}
