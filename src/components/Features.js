@@ -1,12 +1,12 @@
 import React from 'react'
  import { Link } from 'react-router-dom'
-import styles from './Features.module.css'
- import playstore from './Playstore Dowload.png'
- import appstore from './Apple Dowload.png'
- import iphone1 from './iphone1.png'
- import iphone2 from './iphone2.png'
- import iphone3 from './iphone3.png'
- import Frame from './Frame 29.png'
+import styles from './styles/Features.module.css'
+ import playstore from './assets/Playstore Dowload.png'
+ import appstore from './assets/Apple Dowload.png'
+ import iphone1 from './assets/iphone1.png'
+ import iphone2 from './assets/iphone2.png'
+ import iphone3 from './assets/iphone3.png'
+ import Frame from './assets/Frame 29.png'
 
 
 function Features() {

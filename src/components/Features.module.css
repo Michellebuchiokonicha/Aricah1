@@ -9,8 +9,11 @@
 .features{
     max-width: 100%;
     box-sizing: border-box;
-    /* padding: 30px; */
+    /* display: flex; */
+    margin: auto;
 }
+
+
 .match{
     display: flex;
     flex-direction: row;
@@ -134,14 +137,14 @@
 
 }
 .councellor{
-    width: 382px;
-    height: 102px;
+    display: none;
+    height: 12px;
     border-radius: 5px;
-    padding: 35px;
+    padding: 25px;
     padding-top: 81px;
     border-bottom: 2px;
     border-top: 2px;
-    
+    width: 4900px;
 }
 .forth{
     background-color: #FCAE4940;
@@ -243,4 +246,146 @@
     width: 520px;
     border-radius: 5px;
     
+}
+
+@media screen  and (max-width: 1235px) {
+    .features{
+        
+        background-color:white;
+        padding-left: 35px;
+    }
+    .match{
+        display: block;
+        /* flex-direction: row; */
+        /* grid-gap: 20px; */
+         /* padding: 150px 30px 30px 40px; */
+         /* background-color: #0075FF26; */
+        /* margin-bottom: 15px;
+        /* margin-top: 15px; */
+        /* padding-bottom: 30px; */
+    }
+    .perfect h4{
+        /* width: 276px; */
+        font-size: 30px;
+        font-weight: 400;
+        line-height: 54.16px;
+        /* height: 152px; */
+        padding: 0 10px 30px 40px;
+        /* margin: auto; */
+    } 
+    .match{
+        background-color: white; 
+        max-width: 100px;
+    }
+     .perfect p{
+        font-size: 23px;
+        line-height: 25px;  
+        padding-left: 40px;
+    } 
+        
+    .match .perfect .start{
+        font-weight: 700;
+        font-size: 25px;
+        padding-top: 80px;
+        
+    }
+    .play{
+        padding-left: 20px;
+     }
+     .app{
+         padding-left: 20px;
+     }
+     .iphone{
+          padding-left: 52px;
+         display: flex;
+         flex-direction: row;
+     }
+     .iphone1{
+         width: 165.03px;
+         height: 531.69px;
+         top: 2.03px;
+         left: 25.2px;
+     }
+     .iphone2{
+         width: 182.27px;
+         height: 522.34px;
+         top: 2.03;
+         left: 2.03;
+         padding-top: 140px;
+     }
+     .track{
+        display: grid;
+        flex-direction: column;
+        /* grid-gap: 20px; */
+         /* padding: 20px 20px 20px 20px; */
+         background-color: #E5E5E5;
+         margin: auto;
+    
+    }
+    .immediate{
+        display: block;
+        /* flex-direction: row; */
+        /* grid-gap: 20px; */
+         /* padding: 120px 30px 30px 40px; */
+         
+    }
+    /* .immediate .company h4{
+        font-size: 40px;
+        font-weight: 500;
+        line-height: 65.28px;
+        height: 65px;
+        width: 203px;
+        padding-bottom: 40px;
+        padding-top: 0;
+        text-transform: capitalize;
+    }
+    .immediate .company p{
+        width: 210px;
+        height: 201px;
+        top: 80px;
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 32px;
+        color: #130F26;
+    }
+    .fill{
+    
+        display: flex;
+        flex-direction: row;
+        padding-left: 10px;
+        width: 5px;
+        
+    } */
+    .experience{
+        display: block;
+        flex-direction: column;
+        grid-gap: 220px;
+         padding: 100px 30px 30px 40px;
+         background: white;
+    }
+    .address{
+        display: block;
+        /* flex-direction: row; */
+        grid-gap: 20px;
+        padding: 100px 30px 30px 40px;
+    }
+    .talk{
+        padding-left: 32px;
+        display: flex;
+        flex-direction: column;
+        line-height: 110px;
+        padding-top: 88px;
+        
+    }
+    .convince{
+        padding: 100px 0px 30px 150px;
+    }
+    .iphone4{
+        width: 182.27px;
+        height: 522.34px;
+        top: 2.03;
+        left: 2.03;
+        padding-top: 140px;
+    }
+     
 }

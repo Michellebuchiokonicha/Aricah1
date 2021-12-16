@@ -132,7 +132,7 @@ body{
     width: 105px;
     height: 65px;
     padding-left: 15px;
-    margin-left: 20px;
+    margin-left: 2px;
 }
 .ham button{
     border: 100px;
@@ -141,3 +141,56 @@ body{
     height: 50px;
 }
 
+@media screen  and (max-width: 1235px) {
+    .logo .guide{
+        text-decoration: none;
+        font-size: 14px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #0075FF;
+        font-weight: 400;
+        line-height: 18.23px;
+        padding-right: -111px;
+        
+         /* letter-spacing: 1px;  */
+    }
+    .ham{
+        float: right;
+        line-height: 100px;
+    }
+    .ham .guide{
+        text-decoration: none;
+        font-family: Arial, Helvetica, sans-serif;
+        /* letter-spacing: 4px; */
+        font-size: 14px;
+        color: #0075FF;
+        font-weight: 400;
+        line-height: 18.23px;
+        padding-left: 15px;
+    
+    }
+    .ham .free{
+        color: white;
+        background: #0075FF;
+        border-radius: 5px;
+        width: 55px;
+        height: 65px;
+        padding-left: 5px;
+        margin-left: 0px;
+    }
+    .ham button{
+        border: 100px;
+        width: 137px;
+        padding: 16px 10px 16px 10px;
+        height: 50px;
+    }
+    .container{
+        width: 500px; 
+        margin: 0 auto; 
+        
+    }
+.logo{
+     /* width: 100%;  */
+    float: left;
+    line-height: 100px;
+}
+}

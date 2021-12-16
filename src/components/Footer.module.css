@@ -38,3 +38,28 @@
     color: inherit;
     text-decoration: inherit;
 }
+
+@media screen  and (max-width: 1235px) {
+    .footer .place{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 20px;
+        padding: 90px 30px 90px 30px;
+        margin: auto;
+    }
+    .footer{
+        width: 767px;
+    }
+    .footer .place .menu{
+        width: 382px;
+        height: 102px;
+        border-radius: 5px;
+        padding: 10px;
+        padding-top: 0;
+        padding-bottom: 60px; 
+    }
+    .store{
+        display: block;
+        padding-right: 20px;
+    }
+}
